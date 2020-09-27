@@ -37,8 +37,10 @@
 # If any command not part of condition or expression will fail in configuration
 # file then script will bail out with error
 
-TYPE="mysql"
+TYPE="postgresql"
 HOST="localhost"
 DATABASE="db"
 LOGIN="user"
+PORT=5432
 PASSWORD="password"
+
