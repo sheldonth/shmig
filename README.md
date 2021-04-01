@@ -23,6 +23,7 @@ to migrate down.
 `shmig redo 1`
 
 Copyright 2021 Sheldon Thomas
+
 Copyright (c) 2013, Daniel Fort
 All rights reserved.
 
