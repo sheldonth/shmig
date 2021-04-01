@@ -1,5 +1,28 @@
 Ultra-compact postgres-only version of https://github.com/mbucc/shmig
 
+Usage
+
+Copy shmig and shmig.conf into any source directory holding postgres config
+Add your values to shmig.conf
+
+Create a migration
+`shmig create user_add_created_date_index`
+
+... write migrations
+
+`shmig migrate steps=1`
+
+to migrate up or
+
+`shmig down steps=1`
+
+to migrate down.
+
+`schmig pending`
+`schmig status`
+`shmig redo 1`
+
+Copyright 2021 Sheldon Thomas
 Copyright (c) 2013, Daniel Fort
 All rights reserved.
 
