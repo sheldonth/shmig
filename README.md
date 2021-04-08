@@ -3,6 +3,7 @@ Ultra-compact postgres-only version of https://github.com/mbucc/shmig
 Usage
 
 Copy shmig and shmig.conf into any source directory holding postgres config
+
 Add your values to shmig.conf
 
 Create a migration
